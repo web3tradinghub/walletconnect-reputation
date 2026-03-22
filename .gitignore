@@ -53,3 +53,9 @@ config.secret.*
 *.key
 secrets.json
 config.secret.*
+.env
+.env.local
+.env*.local
+*.key
+secrets.json
+config.secret.*
