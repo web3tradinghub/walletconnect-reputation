@@ -41,3 +41,9 @@ yarn-error.log*
 next-env.d.ts
 \n# Local environment variables\n.env.local
 .env*.local
+.env
+.env.local
+.env*.local
+*.key
+secrets.json
+config.secret.*

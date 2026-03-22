@@ -22123,3 +22123,392 @@ https://nextjs.org/docs/messages/module-not-found
 [error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
 [debug] [2026-02-13T09:19:16.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
 [debug] [2026-02-13T09:19:16.516Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:00.793Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:00.795Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:00.796Z] Checked if tokens are valid: false, expires at: 1770977953586
+[debug] [2026-02-13T13:34:00.797Z] Checked if tokens are valid: false, expires at: 1770977953586
+[debug] [2026-02-13T13:34:00.797Z] > refreshing access token with scopes: []
+[debug] [2026-02-13T13:34:00.799Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-13T13:34:00.799Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-13T13:34:00.802Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:00.802Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:00.802Z] Checked if tokens are valid: false, expires at: 1770977953586
+[debug] [2026-02-13T13:34:00.803Z] Checked if tokens are valid: false, expires at: 1770977953586
+[debug] [2026-02-13T13:34:00.803Z] > refreshing access token with scopes: []
+[debug] [2026-02-13T13:34:00.803Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-13T13:34:00.804Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-13T13:34:00.901Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-13T13:34:00.901Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-13T13:34:00.919Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-13T13:34:00.922Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-13T13:34:00.923Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-13T13:34:00.939Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-13T13:34:01.961Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-13T13:34:01.963Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-13T13:34:01.971Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.971Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.974Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.974Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.975Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.975Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.990Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.991Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.991Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.991Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:01.991Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-02-13T13:34:01.991Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:01.993Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-13T13:34:01.993Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:01.995Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-13T13:34:01.995Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:01.996Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-13T13:34:01.996Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:01.998Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-02-13T13:34:01.998Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:02.049Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-13T13:34:02.049Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-13T13:34:02.050Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.050Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.051Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.051Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.051Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.051Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.058Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.058Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.058Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.058Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:02.058Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-02-13T13:34:02.059Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:02.061Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-13T13:34:02.061Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:02.064Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-13T13:34:02.064Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:02.067Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-13T13:34:02.068Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:02.069Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-02-13T13:34:02.069Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-13T13:34:03.005Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-02-13T13:34:03.005Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-02-13T13:34:03.045Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-13T13:34:03.045Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.064Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-13T13:34:03.064Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.067Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-02-13T13:34:03.067Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.085Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-02-13T13:34:03.085Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-02-13T13:34:03.113Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-13T13:34:03.113Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.116Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-13T13:34:03.119Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:03.150Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:03.150Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:03.150Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.150Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.151Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-13T13:34:03.161Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-13T13:34:03.161Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.165Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-02-13T13:34:03.165Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.180Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-13T13:34:03.181Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-13T13:34:03.363Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-13T13:34:03.364Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:03.367Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:03.367Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:03.410Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:03.410Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:03.414Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.414Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.414Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:03.451Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:03.451Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:03.451Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.452Z] Checked if tokens are valid: true, expires at: 1770993239923
+[debug] [2026-02-13T13:34:03.454Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-13T13:34:03.658Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-13T13:34:03.659Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:03.668Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:03.668Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-13T13:34:04.709Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-13T13:34:04.709Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-13T13:34:04.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-13T13:34:04.715Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:18.379Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:18.380Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:18.382Z] Checked if tokens are valid: false, expires at: 1770993239923
+[debug] [2026-02-15T10:51:18.382Z] Checked if tokens are valid: false, expires at: 1770993239923
+[debug] [2026-02-15T10:51:18.383Z] > refreshing access token with scopes: []
+[debug] [2026-02-15T10:51:18.387Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-15T10:51:18.387Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-15T10:51:18.391Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:18.392Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:18.392Z] Checked if tokens are valid: false, expires at: 1770993239923
+[debug] [2026-02-15T10:51:18.392Z] Checked if tokens are valid: false, expires at: 1770993239923
+[debug] [2026-02-15T10:51:18.393Z] > refreshing access token with scopes: []
+[debug] [2026-02-15T10:51:18.394Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-02-15T10:51:18.394Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-15T10:51:18.457Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-15T10:51:18.459Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-15T10:51:18.487Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-15T10:51:18.508Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-02-15T10:51:18.508Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-02-15T10:51:18.525Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-15T10:51:19.548Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-15T10:51:19.549Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-15T10:51:19.569Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.570Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.571Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.571Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.571Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.572Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.593Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.594Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.594Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.594Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.595Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.595Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.597Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.597Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.599Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.599Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.602Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.602Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.605Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-02-15T10:51:19.605Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.700Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-15T10:51:19.700Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-02-15T10:51:19.702Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.702Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.702Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.702Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.703Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.703Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.713Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.713Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.714Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.714Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:19.715Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.715Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.718Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.718Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.725Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.725Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.727Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-02-15T10:51:19.728Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:19.729Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-02-15T10:51:19.730Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-02-15T10:51:20.670Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-02-15T10:51:20.670Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-02-15T10:51:20.694Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-15T10:51:20.695Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.698Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-15T10:51:20.698Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.702Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-15T10:51:20.702Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.716Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-02-15T10:51:20.722Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:20.742Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:20.743Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:20.746Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:20.746Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:20.746Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-15T10:51:20.756Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-02-15T10:51:20.759Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-02-15T10:51:20.781Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-02-15T10:51:20.781Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.806Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-02-15T10:51:20.806Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.824Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-02-15T10:51:20.824Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:20.825Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-02-15T10:51:20.826Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-02-15T10:51:21.795Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-15T10:51:21.796Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:21.803Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:21.806Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:21.837Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:21.837Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:21.837Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:21.837Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:21.838Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:21.859Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:21.859Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:21.860Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:21.860Z] Checked if tokens are valid: true, expires at: 1771156277508
+[debug] [2026-02-15T10:51:21.860Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-02-15T10:51:22.865Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-15T10:51:22.865Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:22.868Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:22.868Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-02-15T10:51:22.875Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-02-15T10:51:22.875Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-02-15T10:51:22.883Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-02-15T10:51:22.883Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:20.911Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:20.912Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:20.914Z] Checked if tokens are valid: false, expires at: 1771156277508
+[debug] [2026-03-22T08:19:20.915Z] Checked if tokens are valid: false, expires at: 1771156277508
+[debug] [2026-03-22T08:19:20.915Z] > refreshing access token with scopes: []
+[debug] [2026-03-22T08:19:20.919Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-22T08:19:20.920Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-22T08:19:20.925Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:20.925Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:20.926Z] Checked if tokens are valid: false, expires at: 1771156277508
+[debug] [2026-03-22T08:19:20.926Z] Checked if tokens are valid: false, expires at: 1771156277508
+[debug] [2026-03-22T08:19:20.926Z] > refreshing access token with scopes: []
+[debug] [2026-03-22T08:19:20.927Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-03-22T08:19:20.927Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-22T08:19:21.008Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-22T08:19:21.008Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-22T08:19:21.026Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-03-22T08:19:21.047Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-03-22T08:19:21.047Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-03-22T08:19:21.062Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-03-22T08:19:21.318Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-03-22T08:19:21.319Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-03-22T08:19:21.337Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.337Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.338Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.338Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.339Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.339Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.361Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.361Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.362Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.362Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:21.362Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-03-22T08:19:21.362Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:21.365Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-03-22T08:19:21.365Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:21.368Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-03-22T08:19:21.369Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:21.372Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-03-22T08:19:21.372Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:21.374Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-03-22T08:19:21.375Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.112Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-03-22T08:19:22.112Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-03-22T08:19:22.113Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.114Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.114Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.114Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.114Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.115Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.125Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.125Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.125Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.125Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:22.126Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [none]
+[debug] [2026-03-22T08:19:22.126Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.129Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [none]
+[debug] [2026-03-22T08:19:22.129Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.134Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-03-22T08:19:22.135Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.137Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [none]
+[debug] [2026-03-22T08:19:22.137Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.139Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [none]
+[debug] [2026-03-22T08:19:22.139Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com  x-goog-user-project=wc-reputation
+[debug] [2026-03-22T08:19:22.504Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-03-22T08:19:22.505Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-03-22T08:19:22.542Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-03-22T08:19:22.543Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:22.562Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-03-22T08:19:22.563Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:22.587Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-03-22T08:19:22.587Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:22.596Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-03-22T08:19:22.596Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:23.300Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com 403
+[debug] [2026-03-22T08:19:23.300Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseio.com [omitted]
+[debug] [2026-03-22T08:19:23.501Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com 200
+[debug] [2026-03-22T08:19:23.501Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:23.516Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com 200
+[debug] [2026-03-22T08:19:23.516Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebasedataconnect.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:23.520Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com 200
+[debug] [2026-03-22T08:19:23.521Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firestore.googleapis.com [omitted]
+[debug] [2026-03-22T08:19:23.523Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com 200
+[debug] [2026-03-22T08:19:23.523Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/wc-reputation/services/firebaseapphosting.googleapis.com [omitted]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:23.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:23.540Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:23.540Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:23.540Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:23.541Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-03-22T08:19:24.702Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-03-22T08:19:24.708Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-03-22T08:19:24.715Z] >>> [apiv2][query] POST https://developerknowledge.googleapis.com/mcp [none]
+[debug] [2026-03-22T08:19:24.715Z] >>> [apiv2][body] POST https://developerknowledge.googleapis.com/mcp {"method":"tools/list","jsonrpc":"2.0","id":1}
+[debug] [2026-03-22T08:19:24.954Z] <<< [apiv2][status] POST https://developerknowledge.googleapis.com/mcp 200
+[debug] [2026-03-22T08:19:24.955Z] <<< [apiv2][body] POST https://developerknowledge.googleapis.com/mcp {"id":1,"jsonrpc":"2.0","result":{"tools":[{"annotations":{"destructiveHint":false,"idempotentHint":true,"openWorldHint":false,"readOnlyHint":true},"description":"Use this tool to find documentation about Google developer products. The documents contain official APIs, code snippets, release notes, best practices, guides, debugging info, and more. It covers the following products and domains:\n\n* Android: developer.android.com\n* Apigee: docs.apigee.com\n* Chrome: developer.chrome.com\n* Firebase: firebase.google.com\n* Fuchsia: fuchsia.dev\n* Google AI: ai.google.dev\n* Google Cloud: docs.cloud.google.com\n* Google Developers, Ads, Search, Google Maps, Youtube: developers.google.com\n* Google Home: developers.home.google.com\n* TensorFlow: www.tensorflow.org\n* Web: web.dev\n\nThis tool returns chunks of text, names, and URLs for matching documents. If the returned chunks are not detailed enough to answer the user's question, use `get_documents` with the `parent` from this tool's output to retrieve the full document content.","inputSchema":{"description":"Request schema for search_documents. Use the query field to search for related Google developer documentation.","properties":{"query":{"description":"Required. The raw query string provided by the user, such as \"How to create a Cloud Storage bucket?\".","type":"string"}},"required":["query"],"type":"object"},"name":"search_documents","outputSchema":{"$defs":{"DocumentChunk":{"description":"A DocumentChunk represents a piece of content from a Document in the DeveloperKnowledge corpus. To fetch the entire document content, pass the `parent` to get_document or batch_get_documents.","properties":{"content":{"description":"Output only. The content of the document chunk.","readOnly":true,"type":"string"},"id":{"description":"Output only. The ID of this chunk within the document. The chunk ID is unique within a document, but not globally unique across documents. The chunk ID is not stable and may change over time.","readOnly":true,"type":"string"},"parent":{"description":"Output only. The resource name of the document this chunk is from. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","readOnly":true,"type":"string"}},"type":"object"}},"description":"Response schema for search_documents.","properties":{"results":{"description":"The search results for the given query. Each Document in this list contains a snippet of content relevant to the search query. Use the DocumentChunk.name field of each result with get_documents to retrieve the full document content.","items":{"$ref":"#/$defs/DocumentChunk"},"type":"array"}},"type":"object"}},{"annotations":{"destructiveHint":false,"idempotentHint":true,"openWorldHint":false,"readOnlyHint":true},"description":"Use this tool to retrieve the full content of a single document or up to 20 documents in a single call. The document names should be obtained from the `parent` field of results from a call to the `search_documents` tool. Set the `names` parameter to a list of document names.","inputSchema":{"description":"Request schema for get_documents.","properties":{"names":{"description":"Required. The names of the documents to retrieve, as returned by search_documents. A maximum of 20 documents can be retrieved in one call. The documents are returned in the same order as the `names` in the request. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","items":{"type":"string"},"type":"array"}},"required":["names"],"type":"object"},"name":"get_documents","outputSchema":{"$defs":{"Document":{"description":"A Document represents a piece of content from the Developer Knowledge corpus.","properties":{"content":{"description":"Output only. The content of the document in Markdown format.","readOnly":true,"type":"string"},"description":{"description":"Output only. A description of the document.","readOnly":true,"type":"string"},"name":{"description":"Identifier. The resource name of the document. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","type":"string","x-google-identifier":true},"title":{"description":"Output only. The title of the document.","readOnly":true,"type":"string"},"uri":{"description":"Output only. The URI of the content, such as `https://cloud.google.com/storage/docs/creating-buckets`.","readOnly":true,"type":"string"}},"type":"object"}},"description":"Response schema for get_documents.","properties":{"documents":{"description":"Documents requested.","items":{"$ref":"#/$defs/Document"},"type":"array"}},"type":"object"}}]}}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:24.962Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:24.962Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:25.048Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:25.048Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:25.049Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:25.049Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:25.049Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:25.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:25.075Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:25.076Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:25.076Z] Checked if tokens are valid: true, expires at: 1774171160047
+[debug] [2026-03-22T08:19:25.076Z] >>> [apiv2][query] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo [none]
+[debug] [2026-03-22T08:19:26.336Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-03-22T08:19:26.337Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:26.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:26.340Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
+[debug] [2026-03-22T08:19:26.358Z] <<< [apiv2][status] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo 200
+[debug] [2026-03-22T08:19:26.358Z] <<< [apiv2][body] GET https://cloudbilling.googleapis.com/v1/projects/wc-reputation/billingInfo {"name":"projects/wc-reputation/billingInfo","projectId":"wc-reputation","billingAccountName":"","billingEnabled":false}
+[debug] [2026-03-22T08:19:26.359Z] >>> [apiv2][query] POST https://developerknowledge.googleapis.com/mcp [none]
+[debug] [2026-03-22T08:19:26.360Z] >>> [apiv2][body] POST https://developerknowledge.googleapis.com/mcp {"method":"tools/list","jsonrpc":"2.0","id":1}
+[debug] [2026-03-22T08:19:26.402Z] <<< [apiv2][status] POST https://developerknowledge.googleapis.com/mcp 200
+[debug] [2026-03-22T08:19:26.402Z] <<< [apiv2][body] POST https://developerknowledge.googleapis.com/mcp {"id":1,"jsonrpc":"2.0","result":{"tools":[{"annotations":{"destructiveHint":false,"idempotentHint":true,"openWorldHint":false,"readOnlyHint":true},"description":"Use this tool to find documentation about Google developer products. The documents contain official APIs, code snippets, release notes, best practices, guides, debugging info, and more. It covers the following products and domains:\n\n* Android: developer.android.com\n* Apigee: docs.apigee.com\n* Chrome: developer.chrome.com\n* Firebase: firebase.google.com\n* Fuchsia: fuchsia.dev\n* Google AI: ai.google.dev\n* Google Cloud: docs.cloud.google.com\n* Google Developers, Ads, Search, Google Maps, Youtube: developers.google.com\n* Google Home: developers.home.google.com\n* TensorFlow: www.tensorflow.org\n* Web: web.dev\n\nThis tool returns chunks of text, names, and URLs for matching documents. If the returned chunks are not detailed enough to answer the user's question, use `get_documents` with the `parent` from this tool's output to retrieve the full document content.","inputSchema":{"description":"Request schema for search_documents. Use the query field to search for related Google developer documentation.","properties":{"query":{"description":"Required. The raw query string provided by the user, such as \"How to create a Cloud Storage bucket?\".","type":"string"}},"required":["query"],"type":"object"},"name":"search_documents","outputSchema":{"$defs":{"DocumentChunk":{"description":"A DocumentChunk represents a piece of content from a Document in the DeveloperKnowledge corpus. To fetch the entire document content, pass the `parent` to get_document or batch_get_documents.","properties":{"content":{"description":"Output only. The content of the document chunk.","readOnly":true,"type":"string"},"id":{"description":"Output only. The ID of this chunk within the document. The chunk ID is unique within a document, but not globally unique across documents. The chunk ID is not stable and may change over time.","readOnly":true,"type":"string"},"parent":{"description":"Output only. The resource name of the document this chunk is from. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","readOnly":true,"type":"string"}},"type":"object"}},"description":"Response schema for search_documents.","properties":{"results":{"description":"The search results for the given query. Each Document in this list contains a snippet of content relevant to the search query. Use the DocumentChunk.name field of each result with get_documents to retrieve the full document content.","items":{"$ref":"#/$defs/DocumentChunk"},"type":"array"}},"type":"object"}},{"annotations":{"destructiveHint":false,"idempotentHint":true,"openWorldHint":false,"readOnlyHint":true},"description":"Use this tool to retrieve the full content of a single document or up to 20 documents in a single call. The document names should be obtained from the `parent` field of results from a call to the `search_documents` tool. Set the `names` parameter to a list of document names.","inputSchema":{"description":"Request schema for get_documents.","properties":{"names":{"description":"Required. The names of the documents to retrieve, as returned by search_documents. A maximum of 20 documents can be retrieved in one call. The documents are returned in the same order as the `names` in the request. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","items":{"type":"string"},"type":"array"}},"required":["names"],"type":"object"},"name":"get_documents","outputSchema":{"$defs":{"Document":{"description":"A Document represents a piece of content from the Developer Knowledge corpus.","properties":{"content":{"description":"Output only. The content of the document in Markdown format.","readOnly":true,"type":"string"},"description":{"description":"Output only. A description of the document.","readOnly":true,"type":"string"},"name":{"description":"Identifier. The resource name of the document. Format: `documents/{uri_without_scheme}` Example: `documents/docs.cloud.google.com/storage/docs/creating-buckets`","type":"string","x-google-identifier":true},"title":{"description":"Output only. The title of the document.","readOnly":true,"type":"string"},"uri":{"description":"Output only. The URI of the content, such as `https://cloud.google.com/storage/docs/creating-buckets`.","readOnly":true,"type":"string"}},"type":"object"}},"description":"Response schema for get_documents.","properties":{"documents":{"description":"Documents requested.","items":{"$ref":"#/$defs/Document"},"type":"array"}},"type":"object"}}]}}
+[error] Failed to fetch Firebase Project from Studio Workspace because WORKSPACE_SLUG environment variable is empty
+[debug] [2026-03-22T08:19:26.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2026-03-22T08:19:26.404Z] > authorizing via signed-in user (web3tradinghub@gmail.com)
